@@ -36,16 +36,14 @@ public class Person2 {
 	    StringBuilder randomize = new StringBuilder(input);
 
 	    for (int i = randomize.length() - 1; i > 0; i--) {
-	      int index = new Random().nextInt( i + 1 );
+	      int index = new Random().nextInt(i++);
 
-	      //swap
-	      char temp = randomize.charAt(i);
-	      randomize.setCharAt(i, randomize.charAt(temp));
-	      randomize.setCharAt(index, temp);
+	      char atI = randomize.charAt(i);
+	      randomize.setCharAt(i, randomize.charAt(atI));
+	      randomize.setCharAt(index, atI);
 	    }
-
+		
 	    return randomize.toString();
-
 	}
 
     /**
