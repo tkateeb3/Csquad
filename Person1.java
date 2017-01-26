@@ -31,7 +31,7 @@ public class Person1 {
 	 */
 	private String calc(String input) {
 	  	//Person 1 put your implementation here
-	  	cha[] charArr = input.toCharArray();
+	  	char[] charArr = input.toCharArray();
 		char one = charArr[0];
 		char two = charArr[1];
 		StringBuilder sb = new StringBuilder();
@@ -40,7 +40,7 @@ public class Person1 {
 		}
 		sb.append(one);
 		sb.append(two);
-		Sring returnVal = sb.toString();
+		String returnVal = sb.toString();
 	  	return returnVal;
 	}
 
