@@ -48,7 +48,7 @@ import edu.gatech.oad.antlab.pkg2.*;
     /**
      * gathers a string from all the other classes and prints the message
      * out to the console     
-     * 
+     * comment
      */
     public void printOutMessage() {
         
