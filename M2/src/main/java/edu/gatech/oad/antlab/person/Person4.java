@@ -38,7 +38,7 @@ public class Person4 {
    * that varies with an input string
    *
    * @param input the varying string
-   * @return  the string representing the
+   * @return   the string representing the
    *         object
    */
   public String toString(String input) {
