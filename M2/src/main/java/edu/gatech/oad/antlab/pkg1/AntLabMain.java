@@ -32,7 +32,7 @@ import edu.gatech.oad.antlab.pkg2.*;
     
     
     /**
-     * the constructor that intializes all the helper classes
+     * the constructor thatsbvhd intializes all the helper classes
      */
     public AntLabMain () {
         
