@@ -1,27 +1,25 @@
 package edu.gatech.oad.antlab.person;
-import java.util.Random;
 
 /**
- * A simple class for person 2 returns their name and a modified string
+ *  A simple class for person 2
+ *  returns their name and a
+ *  modified string 
  *
- * @author Diana
+ * @author Bob
  * @version 1.1
  */
 public class Person2 {
-    /** Holds the persons real name, Diana */
+    /** Holds the persons real name */
     private String name;
-
-    /**
-     * The constructor, takes in the persons name
-     * 
-     * @param pname
-     * the person's real name
-     */
-    public Person2(String pname) {
-	name = pname;
-    }
-
-    /**
+	 	/**
+	 * The constructor, takes in the persons
+	 * name
+	 * @param pname the person's real name
+	 */
+	 public Person2(String pname) {
+	   name = pname;
+	 }
+	/**
 	 * This method should take the string
 	 * input and return its characters in
 	 * random order.
@@ -33,20 +31,9 @@ public class Person2 {
 	 */
 	private String calc(String input) {
 	  //Person 2 put your implementation here
-	    StringBuilder randomize = new StringBuilder(input);
-
-	    for (int i = randomize.length() - 1; i > 0; i--) {
-	      int index = new Random().nextInt(i++);
-
-	      char atI = randomize.charAt(i);
-	      randomize.setCharAt(i, randomize.charAt(atI));
-	      randomize.setCharAt(index, atI);
-	    }
-		
-	    return randomize.toString();
+	  return null;
 	}
-
-    /**
+	/**
 	 * Return a string rep of this object
 	 * that varies with an input string
 	 *
