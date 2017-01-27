@@ -32,7 +32,7 @@ import edu.gatech.oad.antlab.pkg2.*;
     
     
     /**
-     * the constructor that intializes all the helper classes
+     * the constructor thatsbvhd intializes all the helper classes
      */
     public AntLabMain () {
         
@@ -48,7 +48,7 @@ import edu.gatech.oad.antlab.pkg2.*;
     /**
      * gathers a string from all the other classes and prints the message
      * out to the console     
-     * 
+     * comment1
      */
     public void printOutMessage() {
         
@@ -56,13 +56,13 @@ import edu.gatech.oad.antlab.pkg2.*;
             ant11.getMessage() + ant12.getMessage() + ant21.getMessage()
           + ant22.getMessage() + ant31.getMessage();
 		  //Person1 replace P1 with your name
-		  //and gburdell1 with your gt id
-		  Person1 p1 = new Person1("P1");
-		  toPrint += p1.toString("gburdell1");
+		  //and gburdell1 with your gt id commit
+		  Person1 p1 = new Person1("Nilay Mehta");
+		  toPrint += p1.toString("nmehta73");
 		  //Person2 replace P2 with your name
 		  //and gburdell with your gt id
-		  Person2 p2 = new Person2("P2");
-		  toPrint += p2.toString("gburdell2");
+		  Person2 p2 = new Person2("Diana Milton");
+		  toPrint += p2.toString("dmilton3");
 		  //Person3 replace P3 with your name
 		  //and gburdell3 with your gt id
 		  Person3 p3 = new Person3("Christina Bui");
@@ -70,12 +70,12 @@ import edu.gatech.oad.antlab.pkg2.*;
         //Boop.
                   //Person4 replace P4 with your name
                   //and gburdell4 with your gt id
-                  Person4 p4 = new Person4("P4");
-                  toPrint += p4.toString("gburdell4");
+                  Person4 p4 = new Person4("Darren Trementozzi");
+                  toPrint += p4.toString("dtrementozzi3");
                   //Person5 replace P4 with your name
                   //and gburdell5 with your gt id
-                  Person5 p5 = new Person5("P5");
-                  toPrint += p5.toString("gburdell5");
+                  Person5 p5 = new Person5("Talib Kateeb");
+                  toPrint += p5.toString("tkateeb3");
 		  
         System.out.println(toPrint);
         
