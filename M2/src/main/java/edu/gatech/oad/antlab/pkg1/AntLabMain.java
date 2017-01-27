@@ -56,7 +56,7 @@ import edu.gatech.oad.antlab.pkg2.*;
             ant11.getMessage() + ant12.getMessage() + ant21.getMessage()
           + ant22.getMessage() + ant31.getMessage();
 		  //Person1 replace P1 with your name
-		  //and gburdell1 with your gt id comment
+		  //and gburdell1 with your gt id commentnew
 		  Person1 p1 = new Person1("nmehta73");
 		  toPrint += p1.toString("Nilay Mehta");
 		  //Person2 replace P2 with your name
