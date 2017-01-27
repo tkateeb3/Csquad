@@ -14,6 +14,7 @@ public class Person4 {
   /**
    * The constructor, takes in the persons
    * name
+   * // tes
    * @param pname the person's real name
    */
   public Person4(String pname) {
@@ -38,7 +39,7 @@ public class Person4 {
    * that varies with an input string
    *
    * @param input the varying string
-   * @return  the string representing the
+   * @return the string representing the
    *         object
    */
   public String toString(String input) {
