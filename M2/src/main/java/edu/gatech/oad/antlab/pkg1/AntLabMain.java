@@ -48,11 +48,11 @@ import edu.gatech.oad.antlab.pkg2.*;
     /**
      * gathers a string from all the other classes and prints the message
      * out to the console     
-     * comment1
+     * comment
      */
     public void printOutMessage() {
         
-        String toPrint = 
+        String toPrint =
             ant11.getMessage() + ant12.getMessage() + ant21.getMessage()
           + ant22.getMessage() + ant31.getMessage();
 		  //Person1 replace P1 with your name
