@@ -41,7 +41,7 @@ public class Person2 {
 			randomize.setCharAt(index, atI);
 		}
 
-		return null;
+		return randomize.toString();
 	}
 	/**
 	 * Return a string rep of this object
