@@ -37,7 +37,7 @@ public class Person1 {
 		StringBuilder sb = new StringBuilder();
 		for(int i = 2; i < charArr.length; i++) {
 			sb.append(charArr[i]);
-		}
+		} 
 		sb.append(one);
 		sb.append(two);
 		String returnVal = sb.toString();
