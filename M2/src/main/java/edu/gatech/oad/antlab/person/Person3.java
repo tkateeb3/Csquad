@@ -8,7 +8,7 @@ package edu.gatech.oad.antlab.person;
  *  @version 1.1
  */
 public class Person3 {
-   /** Holds the persons real name */  
+   /** Christina Bui */
 	private String name;
 	
 	/**
