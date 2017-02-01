@@ -1,0 +1,26 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceCompatibility = 1.8
+version = '1.0'
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Csquad - Talib Kateeb',
+                   'Implementation-Version': 1,
+                   'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntLabMain',
+                   'Class-Path': 'lib/resources.jar'
+    }
+    destinationDir = file(".")
+    archiveName = 'AntLabMain.jar'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '3.6.7.Final'
+    testCompile group: 'junit', name: 'junit', version: '4.+'
+    compile files ('lib/resources.jar')
+}
