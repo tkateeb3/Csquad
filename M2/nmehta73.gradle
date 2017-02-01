@@ -12,7 +12,7 @@ jar {
                    'Class-Path': 'lib/resources.jar'
     }
     destinationDir = file(".")
-    archiveName = 'AntLab.jar'
+    archiveName = 'AntLabMain.jar'
 }
 
 repositories {
