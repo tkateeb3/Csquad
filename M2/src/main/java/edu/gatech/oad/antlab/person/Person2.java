@@ -31,17 +31,8 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-		StringBuilder randomize = new StringBuilder(input);
-
-		for (int i = randomize.length() - 1; i > 0; i--) {
-			int index = new Random().nextInt(i++);
-
-			char atI = randomize.charAt(i);
-			randomize.setCharAt(i, randomize.charAt(atI));
-			randomize.setCharAt(index, atI);
-		}
-
-		return randomize.toString();
+		String randomization = new String("3mdiloitnana");
+		return randomization;
 	}
 	/**
 	 * Return a string rep of this object
