@@ -12,7 +12,7 @@ import edu.gatech.oad.antlab.pkg2.*;
  * Prints out a simple message gathered from all of the other classes
  * in the package structure
  */
- public class AntLabMain {
+ public class AntLabMain { 
     
     /**antlab11.java message class*/
     private AntLab11 ant11;
@@ -41,8 +41,7 @@ import edu.gatech.oad.antlab.pkg2.*;
         ant21 = new AntLab21();
         ant22 = new AntLab22();
         ant31 = new AntLab31();
-        
-        
+
     }
     
     /**

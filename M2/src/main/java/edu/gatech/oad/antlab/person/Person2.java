@@ -11,7 +11,7 @@ import java.util.Random;
  */
 public class Person2 {
     /** Holds the persons real name */
-    private String name; 
+    private String name;
 	 	/**
 	 * The constructor, takes in the persons
 	 * name
