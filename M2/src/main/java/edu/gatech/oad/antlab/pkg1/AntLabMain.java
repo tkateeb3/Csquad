@@ -1,4 +1,4 @@
-package M2.src.main.java.edu.gatech.oad.antlab.pkg1;
+package edu.gatech.oad.antlab.pkg1;
 
 
 import edu.cs2335.antlab.pkg3.*;
