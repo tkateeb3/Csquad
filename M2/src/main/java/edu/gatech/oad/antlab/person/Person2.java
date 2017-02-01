@@ -31,7 +31,7 @@ public class Person2 {
 	 * @return the modified string
 	 */
 	private String calc(String input) {
-		String randomization = new String("3mdiloitnana);
+		String randomization = new String("3mdiloitnana");
 		return randomization;
 	}
 	/**
