@@ -7,7 +7,7 @@ version = '1.0'
 jar {
     manifest {
         attributes 'Implementation-Title': 'Csquad - Talib Kateeb',
-                   'Implementation-Version': 1,
+                   'Implementation-Version': version,
                    'Main-Class' : 'edu.gatech.oad.antlab.pkg1.AntLabMain',
                    'Class-Path': 'lib/resources.jar'
     }
